@@ -1,9 +1,9 @@
-venv/
-.pylintrc
-__pycache__/
-
-.vscode
-.idea
-
+*.pyc
+__pycache__
 db.sqlite3
-media/
+/media
+/static
+.env
+.vscode
+*.log
+*.sqlite3
