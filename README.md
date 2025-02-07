@@ -46,6 +46,12 @@
         <img src="https://github.com/user-attachments/assets/15f79c63-55a7-4af6-afd2-7f9750d107af" alt="Профиль">
         <p>Если свою фотографию не загрузить, то в профиле будет отображаться фотография "No image available".</p>
     </li>
+    <li>
+      <h1>⭐6. Карточки товаров⭐</h1>
+      <p>Также товару можно добавить более одной фотографии и перелистывать их.</p>
+      <img src="https://github.com/user-attachments/assets/81ac8d1f-7721-4165-82cc-a5273b711205" alt="Карточка товара1">
+      <img src="https://github.com/user-attachments/assets/8fb36a2d-07ab-44cc-874c-0ca1b79504e7" alt="Карточка товара2">
+    </li>
 
 
 
