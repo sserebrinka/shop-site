@@ -52,6 +52,11 @@
       <img src="https://github.com/user-attachments/assets/81ac8d1f-7721-4165-82cc-a5273b711205" alt="Карточка товара1">
       <img src="https://github.com/user-attachments/assets/8fb36a2d-07ab-44cc-874c-0ca1b79504e7" alt="Карточка товара2">
     </li>
+    <li>
+      <h1>⭐7. Скидка⭐</h1>
+      <p>Скидку на товар можно поставить в джанго админке (скидка в процентах).</p>
+      <img src="https://github.com/user-attachments/assets/23c1276d-bc30-4f86-93d4-d7625404634e" alt="">
+    </li>
 
 
 
