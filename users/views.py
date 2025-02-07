@@ -18,7 +18,7 @@ def login(request):
                                       password=password)
             if user:
                 auth.login(request, user)
-                return HttpResponseRedirect(reverse('main:product_list')) #!
+                return HttpResponseRedirect(reverse('main:product_list')) 
     else:
         form = UserLoginForm()
     return render(request, 'users/login.html', {'form': form})

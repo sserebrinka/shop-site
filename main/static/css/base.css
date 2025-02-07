@@ -21,7 +21,6 @@ body {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
-
 }
 
 ul {
@@ -321,6 +320,10 @@ h5 {
     flex-direction: column;
 }
 
+.card {
+    padding: 10px;
+}
+
 .cart-title {
     margin-top: 60px;
     margin-bottom: 30px;
@@ -328,8 +331,10 @@ h5 {
 
 .cart-cards {
     min-height: 52vh;
-    width: 600px;
+    width: 650px;
     overflow-y: auto;
+    padding: 20px; 
+    box-sizing: border-box; 
 }
 
 .cart-card {
@@ -344,6 +349,12 @@ h5 {
     margin-bottom: 10px;
     background-image: url(../img/cfr2.png);
     background-repeat: no-repeat;
+    margin-bottom: 20px; 
+    padding: 10px;
+}
+
+.cart-card-info {
+    margin-left: -20px; 
 }
 
 .cart-card:nth-child(even) {
@@ -352,6 +363,7 @@ h5 {
 }
 
 .cart-card-img img {
+    margin: 10px;
     width: 125px;
     height: 125px;
     border: 1px solid #00000042;
@@ -529,7 +541,7 @@ h5 {
 .order-form input {
     border-radius: 5px;
     width: 250px;
-    height: 38px;
+    height: 35px;
     background-color: #fff;
     box-shadow: none;
     border: 1px solid #00000046;
@@ -715,4 +727,12 @@ h5 {
 .regform button {
     margin-left: 20px;
     margin-top: 30px;
+}
+
+.window {
+    padding: 20px; 
+    margin: 10px auto;
+    max-width: 2000px; 
+    display: flex;
+    flex-direction: column; 
 }

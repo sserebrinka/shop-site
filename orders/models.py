@@ -17,6 +17,13 @@ class Order(models.Model):
     updated = models.DateTimeField(auto_now_add=True)
     paid = models.BooleanField(default=False)
     stripe_id = models.CharField(max_length=250, blank=True)
+    sequential_id = models.PositiveIntegerField(unique=True, blank=True, null=True)
+
+    def save(self, *args, **kwargs):
+        if not self.sequential_id:
+            last_order = Order.objects.order_by('-sequential_id').first()
+            self.sequential_id = 1 if not last_order else last_order.sequential_id + 1
+        super().save(*args, **kwargs)
 
 
     class Meta:

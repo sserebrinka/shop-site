@@ -63,7 +63,7 @@
                     <div class="orderss">
                         {% for order in orders %}
                             <div class="order-cart">
-                                <h5 class="order-title">Order № {{ order.id }}</h5>
+                                <h5 class="order-title">Order № {{ forloop.counter }}</h5>
                                 <p class="order-desc">
                                     {% for item in order.items.all %}
                                         <div class="orders-carts">

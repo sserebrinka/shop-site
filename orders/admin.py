@@ -19,7 +19,7 @@ order_stripe_payment.short_description = 'Stripe payment'
 
 @admin.register(Order)
 class OrderAdmin(admin.ModelAdmin):
-    list_display = ['id', 'first_name', 'last_name',
+    list_display = ['sequential_id', 'first_name', 'last_name',
                     'email', 'address', 'postal_code',
                     'city', 'paid', order_stripe_payment, 'created', 'updated']
     list_filter = ['paid', 'created', 'updated']
