@@ -47,13 +47,19 @@
         <p>Если свою фотографию не загрузить, то в профиле будет отображаться фотография "No image available".</p>
     </li>
     <li>
-      <h1>⭐6. Карточки товаров⭐</h1>
+      <h1>⭐6. Payment⭐</h1>
+      <p>После оформления заказа пользователя перекидывает на страницу с платежом.</p>
+      <img src="https://github.com/user-attachments/assets/ba4ecd18-ab37-4d22-92d8-3afd22ae904f" alt="">
+      <img src="https://github.com/user-attachments/assets/c5bbbe50-defa-4bd2-9668-bda303fcd9df" alt="Payment">
+    </li>
+    <li>
+      <h1>⭐7. Карточки товаров⭐</h1>
       <p>Также товару можно добавить более одной фотографии и перелистывать их.</p>
       <img src="https://github.com/user-attachments/assets/81ac8d1f-7721-4165-82cc-a5273b711205" alt="Карточка товара1">
       <img src="https://github.com/user-attachments/assets/8fb36a2d-07ab-44cc-874c-0ca1b79504e7" alt="Карточка товара2">
     </li>
     <li>
-      <h1>⭐7. Скидка⭐</h1>
+      <h1>⭐8. Скидка⭐</h1>
       <p>Скидку на товар можно поставить в джанго админке (скидка в процентах).</p>
       <img src="https://github.com/user-attachments/assets/23c1276d-bc30-4f86-93d4-d7625404634e" alt="">
     </li>
